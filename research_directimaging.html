@@ -28,10 +28,12 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h2>Initial Mass Function</h2>
+										<h2>Direct Imaging</h2>
 									</header>
 
-
+									<header class="main">
+										<h3>Using Synthetic PSFs and Measured Wavefront Sensing Information</h3>
+									</header>
 
 									<p> In addition to my application of empirical PSF models, I collaborate with a group of researchers at the NASA Jet Propulsion Laboratory through the Strategic University Research Partnership program to test a novel high-contrast imaging analysis for full aperture and AMI observing modes. Most high-contrast imaging routines require observations of a reference star to remove the stellar contribution or calibrate phase errors which can typically take half of the total observing time. This new technique takes advantage of the stability of JWST and uses the measured wavefront error (WFE) from a phase calibration observation (performed roughly every 48 hours) as prior information to estimate the WFE of a given observation and simultaneously search for faint companions. The model of the wavefront includes three low order Zernike coefficients per primary mirror segment, using the Hexike basis, and knowledge of the high frequency errors that are derived during phase calibration. The most likely WFE and astrophysical scene are determined by generating synthetic reference PSFs from the Hexike coefficients and comparing to the data. In <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251005308D/abstract">De Furio et al. (2025)</a>, I demonstrate the effectiveness of this technique on simulations of a NIRISS AMI imaging program (GO-1843), recovering a companion with a contrast of 8 magnitudes and a separation of 0.205″ (1.5λ/D, 3.16 NIRISS pixels) relative to the primary star. Without the need to observe a reference star, significant telescope time can be saved. The results of this work are published in the SPIE Conference Proceedings, and can be found <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251005308D/abstract">here </a>. I am also co-PI on a JWST Cycle 4 archival program (AR 8369) to apply this technique to real NIRISS data, and once validated, will publicly release the code for use in future JWST cycles.
 									 </p>
